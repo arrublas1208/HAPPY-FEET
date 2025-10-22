@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <delete verbose="true">
+      <fileset includes="**/*.class" dir="C:\Users\Usuario\Downloads\HappyFeet_TERMINADO/src/main/java" erroronmissingdir="false" />
+      <fileset includes="**/*.class" dir="C:\Users\Usuario\Downloads\HappyFeet_TERMINADO/src/test/java" erroronmissingdir="false" />
+    </delete>
+    <delete verbose="true">
+      <fileset includes="*.class" dir="C:\Users\Usuario\Downloads\HappyFeet_TERMINADO\target" erroronmissingdir="false" />
+    </delete>
+  </target>
+</project>

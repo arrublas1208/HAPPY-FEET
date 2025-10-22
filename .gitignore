@@ -1,0 +1,25 @@
+# Archivos temporales y logs
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Compilación
+target/classes/
+target/test-classes/
+*.class
+
+# Base de datos local
+*.db
+*.sqlite
+
+# Backups
+*.bak
+*.backup

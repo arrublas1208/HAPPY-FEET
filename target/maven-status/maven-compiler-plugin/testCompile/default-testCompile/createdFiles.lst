@@ -1,0 +1,5 @@
+com\happyfeet\util\RepositoryErrorPropagationTest.class
+com\happyfeet\integration\DatabaseSmokeTest.class
+com\happyfeet\model\entities\FacturaStateIdempotentTest.class
+com\happyfeet\util\DatabaseConnectionCredentialGuardTest.class
+com\happyfeet\util\DatabaseConnectionTest.class

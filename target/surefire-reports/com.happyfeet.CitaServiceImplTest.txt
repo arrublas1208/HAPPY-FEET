@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.happyfeet.CitaServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.234 s <<< FAILURE! -- in com.happyfeet.CitaServiceImplTest
+com.happyfeet.CitaServiceImplTest.crearYFlujoDeEstados_basico -- Time elapsed: 0.021 s <<< ERROR!
+com.happyfeet.service.impl.CitaServiceImpl$ValidationException: No se puede iniciar una cita con más de 15 minutos de anticipación
+	at com.happyfeet.service.impl.CitaServiceImpl.cambiarEstado(CitaServiceImpl.java:269)
+	at com.happyfeet.service.impl.CitaServiceImpl.iniciar(CitaServiceImpl.java:109)
+	at com.happyfeet.CitaServiceImplTest.crearYFlujoDeEstados_basico(CitaServiceImplTest.java:128)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
